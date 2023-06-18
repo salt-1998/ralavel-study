@@ -23,13 +23,3 @@ yarn-error.log
 # バックアップファイル
 *.bak
 *.swp
-
-# 以下がいいのかな？
-# 参考サイト
-# https://qiita.com/naoki0531/items/a3742df5693427df4285
-# src
-# data
-# !data/.gitkeep
-
-# phpstormの設定ファイル
-# .idea
