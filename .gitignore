@@ -1,0 +1,35 @@
+# プロジェクトの依存関係やビルドによって生成されるファイルやディレクトリを無視します。
+
+# Composer によって生成されるディレクトリ
+/vendor/
+node_modules/
+npm-debug.log
+yarn-error.log
+
+# 依存関係やビルド生成物
+/node_modules/
+/build/
+
+# ビルド結果やキャッシュファイル
+/db/
+.cache/
+
+# 環境固有の設定ファイル
+.env
+
+# ログファイルや一時ファイル
+*.log
+
+# バックアップファイル
+*.bak
+*.swp
+
+# 以下がいいのかな？
+# 参考サイト
+# https://qiita.com/naoki0531/items/a3742df5693427df4285
+# src
+# data
+# !data/.gitkeep
+
+# phpstormの設定ファイル
+# .idea
